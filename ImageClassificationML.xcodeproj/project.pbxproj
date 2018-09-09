@@ -14,6 +14,8 @@
 		4E09617A21453C16008EA723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E09617921453C16008EA723 /* Assets.xcassets */; };
 		4E09617D21453C16008EA723 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E09617B21453C16008EA723 /* LaunchScreen.storyboard */; };
 		4E09618821453C17008EA723 /* ImageClassificationMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E09618721453C17008EA723 /* ImageClassificationMLTests.swift */; };
+		4E09619321453C80008EA723 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E09619221453C80008EA723 /* ImageProcessor.swift */; };
+		4E09619521453F0D008EA723 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4E09619421453F0D008EA723 /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		4E09618321453C16008EA723 /* ImageClassificationMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageClassificationMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E09618721453C17008EA723 /* ImageClassificationMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassificationMLTests.swift; sourceTree = "<group>"; };
 		4E09618921453C17008EA723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E09619221453C80008EA723 /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		4E09619421453F0D008EA723 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		4E09616E21453C16008EA723 /* ImageClassificationML */ = {
 			isa = PBXGroup;
 			children = (
+				4E09619421453F0D008EA723 /* GoogLeNetPlaces.mlmodel */,
+				4E09619221453C80008EA723 /* ImageProcessor.swift */,
 				4E09616F21453C16008EA723 /* AppDelegate.swift */,
 				4E09617121453C16008EA723 /* ViewController.swift */,
 				4E09617321453C16008EA723 /* Main.storyboard */,
@@ -203,7 +209,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E09617221453C16008EA723 /* ViewController.swift in Sources */,
+				4E09619521453F0D008EA723 /* GoogLeNetPlaces.mlmodel in Sources */,
 				4E09617021453C16008EA723 /* AppDelegate.swift in Sources */,
+				4E09619321453C80008EA723 /* ImageProcessor.swift in Sources */,
 				4E09617821453C16008EA723 /* ImageClassificationML.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
